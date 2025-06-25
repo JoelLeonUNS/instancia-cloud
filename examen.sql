@@ -7,7 +7,7 @@ CREATE TABLE Cliente (
   razon_social VARCHAR(255),
   direccion VARCHAR(255),
   telefono VARCHAR(255),
-  monto FLOAT,
+  monto DOUBLE,
   distrito INT,
   CONSTRAINT cliente_id_pk PRIMARY KEY (id)
 )
